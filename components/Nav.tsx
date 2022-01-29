@@ -78,7 +78,7 @@ export const Nav: FC = () => {
     <menu className="w-full max-w-3xl flex p-0 px-4 md:px-8">
       <button onClick={(e) => toggleMenu(e, 'profile')} className={`${profileClassnames} relative circle-button mr-2 bg-avatar-britney`} />
       <button onClick={(e) => toggleMenu(e, 'notifications')} className={`${notificationsClassnames} relative circle-button mr-2 bg-blue text-white`}>3</button>
-      <input ref={inputRef} onClick={(e) => toggleMenu(e, 'search')} type='text' className={`${searchClassnames} relative rounded-full w-full pl-4`} placeholder="Search Landscape" />
+      <input ref={inputRef} onClick={(e) => toggleMenu(e, 'search')} type='text' className={`${searchClassnames} relative rounded-full w-full pl-4`} placeholder="Search in Sophia" />
       
       <div className={`${lightboxClassnames}  pointer-events-none bg-lightGray fixed top-0 left-0 w-screen h-screen`} />
       

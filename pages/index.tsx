@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <Head>
-        <title>Landscape • Home</title>
+        <title>Sophia • Home</title>
       </Head>
       
       <header className={`w-full flex justify-center items-center h-24 sticky top-0 left-0 z-30`} style={{backgroundColor:'rgba(255,255,255,0.95)', backdropFilter: 'blur(50px)'}}>
@@ -20,8 +20,8 @@ export default function Home() {
 
       <main className='h-full w-full flex justify-center pt-24 pb-32 relative z-0'>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 px-4 md:px-8 w-full max-w-6xl">
-          <Tile color='#CDE7EF' name='Groups' href='/apps/groups' />
-          <Tile color='#8BE789' name='Messages' href='/apps/messages' />
+          <Tile color='#CDE7EF' name='Journal' href='/apps/groups' />
+          <Tile color='#8BE789' name='Library' href='/apps/messages' />
           <Tile color='#C2D6BE' name='Calls' href='/apps/calls' />
           <Tile color='#F0AE70' name='Bitcoin Wallet' href='/apps/bitcoin-wallet' />        
           <Tile color='#2D0118' name='System' href='/apps/system' light img='system.png'/>
