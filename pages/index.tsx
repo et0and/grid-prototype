@@ -19,19 +19,17 @@ export default function Home() {
       </header>
 
       <main className='h-full w-full flex justify-center pt-24 pb-32 relative z-0'>
+        <h4>Welcome back Tom,</h4>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 px-4 md:px-8 w-full max-w-6xl">
           <Tile color='#CDE7EF' name='Journal' href='/apps/groups' />
           <Tile color='#8BE789' name='Library' href='/apps/messages' />
-          <Tile color='#C2D6BE' name='Calls' href='/apps/calls' />
-          <Tile color='#F0AE70' name='Bitcoin Wallet' href='/apps/bitcoin-wallet' />        
+          <Tile color='#C2D6BE' name='Data' href='/apps/calls' />
+          <Tile color='#F0AE70' name='Sleep' href='/apps/bitcoin-wallet' />        
           <Tile color='#2D0118' name='System' href='/apps/system' light img='system.png'/>
-          <Tile color='#D8B14E' name='My Apps' href='/apps/my-apps' />
-          <Tile color='#A58E52' name='Go' href='/apps/go' img='go.png'/>
-          <Tile color='#2D382B' name='Terminal' href='/apps/terminal' light/>
-          <Tile color='#EE5432' name='Pomodoro' href='/apps/pomodoro' light />
-          <Tile color='#DCDCDC' name='Clocks' href='/apps/clocks' />
-          <Tile color='#FDA1FF' name='Uniswap' href='/apps/uniswap'/>
-          <Tile color='#FEFFBA' name='Inbox' href='/apps/inbox'/>
+          <Tile color='#D8B14E' name='All Apps' href='/apps/my-apps' />
+          <Tile color='#2D382B' name='Meditate' href='/apps/terminal' light/>
+          <Tile color='#EE5432' name='Nutrition' href='/apps/pomodoro' light />
+          <Tile color='#FEFFBA' name='Fitness' href='/apps/inbox'/>
         </div>
       </main>
     </div>
