@@ -6,9 +6,9 @@ import { FC, MouseEvent, useEffect, useRef } from "react"
 type MenuState = 'closed' | 'profile' | 'notifications' | 'search';
 
 const menuImages: Record<MenuState, string> = {
-  'profile': 'profile.png',
-  'notifications': 'notifications.png',
-  'search': 'search.png',
+  'profile': '',
+  'notifications': '',
+  'search': '',
   'closed': ''
 }
 
