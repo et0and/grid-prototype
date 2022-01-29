@@ -21,7 +21,8 @@ export default function Home() {
       <main className='h-full w-full flex justify-center pt-24 pb-32 relative z-0'>
         
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 px-4 md:px-8 w-full max-w-6xl">
-        <h4>Welcome back Tom,</h4>
+        <h3>Welcome back Tom, 
+        </h3>
           <Tile color='#CDE7EF' name='Journal' href='/apps/groups' />
           <Tile color='#8BE789' name='Library' href='/apps/messages' />
           <Tile color='#C2D6BE' name='Data' href='/apps/calls' />
